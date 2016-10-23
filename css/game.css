@@ -2,10 +2,11 @@
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: red; }
-.wall          { background: orange;   }
+.lava          { background: red;     }
+.wall          { background: orange;  }
 .floater       { background: yellow;  }
-
+.actor         { position: absolute;  }
+.player        { background: white;   }
 .game {
   overflow: hidden;
   max-width: 600px;
