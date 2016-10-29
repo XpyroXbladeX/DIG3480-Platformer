@@ -4,9 +4,11 @@
 .background td { padding: 0;          }
 .lava          { background: red;     }
 .wall          { background: orange;  }
-.floater       { background: yellow;  }
+.floater       { background: black;  }
 .actor         { position: absolute;  }
 .player        { background: white;   }
+.coin          { background: yellow;   }
+.ghost    { background: linear-gradient(white, black); }
 .game {
   overflow: hidden;
   max-width: 600px;
