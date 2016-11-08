@@ -4,11 +4,13 @@
 .background td { padding: 0;          }
 .lava          { background: red;     }
 .wall          { background: orange;  }
-.floater       { background: black;  }
+.floater       { background: black;   }
 .actor         { position: absolute;  }
 .player        { background: white;   }
-.coin          { background: yellow;   }
-.ghost    { background: linear-gradient(white, black); }
+.coin          { background: yellow;  }
+.speed         { background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); }
+.door          { background: brown;   }
+.teleporter    { background: radial-gradient(green, black);   }
 .game {
   overflow: hidden;
   max-width: 600px;
